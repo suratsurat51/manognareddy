@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Photos</title>
+<script src="http://cdn.alloyui.com/3.0.1/aui/aui-min.js"></script>
+<link href="http://cdn.alloyui.com/3.0.1/aui-css/css/bootstrap.min.css" rel="stylesheet"></link>
+
+<script>
+YUI().use(
+		  'aui-image-viewer',
+		  function(Y) {
+		    new Y.ImageViewer(
+		      {
+		        caption: 'Liferay Champion Soccer',
+		        //captionFromTitle uses the DOM title attibute as image caption
+		        captionFromTitle: true,
+		        centered: true,
+		        imageAnim: {
+		         duration: 1,
+		         easing: 'easeIn'
+		        },
+		        intervalTime: 2,
+		        links: '#myGallery a',
+		        playing: true,
+		        preloadAllImages: true,
+		        preloadNeighborImages: true,
+		        showInfo: true,
+		        showPlayer: true,
+		        zIndex: 1
+		      }
+		    ).render();
+		  }
+		);
+</script>
+</head>
+<body>
+<h2>Browse photos</h2>
+<div id="myGallery" >
+  <!-- Image being displayed with Image Viewer -->
+  <a href="photos/1.jpg">
+    <!-- Thumbnail of image to be displayed -->
+    <img src="photos/1.jpg" />
+  </a>
+  <a href="photos/1.jpg">
+     <img src="photos/1.jpg" style="display:none;"/>
+  </a>
+  <a href="photos/1.jpg">
+     <img src="photos/1.jpg" style="display:none;"/>
+  </a>
+</div>
+
+</body>
+</html>
