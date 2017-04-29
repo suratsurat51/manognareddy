@@ -12,7 +12,7 @@ YUI().use(
 		  function(Y) {
 		    new Y.ImageViewer(
 		      {
-		        caption: 'Liferay Champion Soccer',
+		        caption: 'Photoshoot in and around Hyderabad',
 		        //captionFromTitle uses the DOM title attibute as image caption
 		        captionFromTitle: true,
 		        centered: true,
@@ -21,7 +21,7 @@ YUI().use(
 		         easing: 'easeIn'
 		        },
 		        intervalTime: 2,
-		        links: '#myGallery b',
+		        links: '#myGallery a',
 		        playing: true,
 		        preloadAllImages: true,
 		        preloadNeighborImages: true,
@@ -37,8 +37,8 @@ YUI().use(
 <body>
 <h2>Maternity and Baby photos</h2>
 <div id="myGallery" >
-<b>Click to view photos</b>
   <!-- Image being displayed with Image Viewer -->
+  <a href="">Click to view in slideshow</a>
   <a href="photos/2.jpg">
      <img src="photos/2.jpg" style="display:none;"/>
   </a>
