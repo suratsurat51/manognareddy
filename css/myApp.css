@@ -54,7 +54,7 @@ img:hover {
 }
 
 .baby-header-site{
-   background-image: url("../photos/cover/baby-cover.jpg");
+   background-image: url("../photos/cover/page-cover.jpg");
 /*     min-height: 200px; */
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
