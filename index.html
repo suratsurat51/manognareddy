@@ -11,12 +11,6 @@
 <link href="js-resource/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js-resource/bootstrap-3.3.7/js/bootstrap.min.js"></script>
-<!-- <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<link
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
-	rel="stylesheet"> -->
 
 <script src="js/jquery.bsPhotoGallery.js"></script>
 <link href="css/jquery.bsPhotoGallery.css" rel="stylesheet">
@@ -24,97 +18,12 @@
 
 
 <script>
-	$(document)
-			.ready(
-					function() {
-						$('li img')
-								.on(
-										'click',
-										function() {
-											var src = $(this).attr('src');
-											var img = '<img src="' + src + '" class="img-responsive"/>';
-											//Start of new code
-											var index = $(this).parent('li')
-													.index();
-											var html = '';
-											html += img;
-											html += '<div style="height:25px;clear:both;display:block;">';
-											html += '<a class="controls next" href="'
-													+ (index + 2)
-													+ '">next &raquo;</a>';
-											html += '<a class="controls previous" href="'
-													+ (index)
-													+ '">&laquo; prev</a>';
-											html += '</div>';
-											//End of new code
-
-											$('#myModal').modal();
-											$('#myModal')
-													.on(
-															'shown.bs.modal',
-															function() {
-																$(
-																		'#myModal .modal-body')
-																		.html(
-																				html);
-																$('a.controls')
-																		.trigger(
-																				'click');
-															});
-											$('#myModal')
-													.on(
-															'hidden.bs.modal',
-															function() {
-																$(
-																		'#myModal .modal-body')
-																		.html(
-																				'');
-															});
-										});
-
-						$(document)
-								.on(
-										'click',
-										'a.controls',
-										function() {
-											var index = $(this).attr('href');
-											var src = $(
-													'ul.row li:nth-child('
-															+ index + ') img')
-													.attr('src');
-											$('.modal-body img').attr('src',
-													src);
-											var newPrevIndex = parseInt(index) - 1;
-											var newNextIndex = parseInt(newPrevIndex) + 2;
-
-											if ($(this).hasClass('previous')) {
-												$(this).attr('href',
-														newPrevIndex);
-												$('a.next').attr('href',
-														newNextIndex);
-											} else {
-												$(this).attr('href',
-														newNextIndex);
-												$('a.previous').attr('href',
-														newPrevIndex);
-											}
-											var total = $('ul.row li').length + 1;
-											//hide next button
-											if (total === newNextIndex) {
-												$('a.next').hide();
-											} else {
-												$('a.next').show()
-											}
-											//hide previous button
-											if (newPrevIndex === 0) {
-												$('a.previous').hide();
-											} else {
-												$('a.previous').show()
-											}
-											return false;
-										});
-
-					});
+	$(document).ready(function() {
+		$('ul.first').bsPhotoGallery({
+			"classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+			"hasModal" : true
+		});
+	});
 </script>
 
 </head>
@@ -124,10 +33,10 @@
 		<h3 style="font-family: 'Bree Serif', arial; font-weight: bold; font-size: 30px;">Photo Collections</h3>
 	</div>
 	<div class="container">
-		<ul class="row">
-			<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4" data-index="0"><img class="thumbnail" alt="Rocking the night away" src="photos/1.jpg" />
-				<div class="text">Write a desc</div></li>
-			<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4" data-index="1"><img class="thumbnail" src="photos/2.jpg" /></li>
+		<ul class="first">
+			<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xss-12" data-index="0"><img alt="Baby photography" src="photos/1.jpg" />
+				<p class="text">Description</p>
+			<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xss-12" data-index="1"><img src="photos/2.jpg" />
 
 		</ul>
 	</div>
