@@ -28,18 +28,51 @@
 
 </head>
 <body>
-	<h2></h2>
-	<div class="row" style="text-align: center; border-bottom: 1px dashed #ccc; padding: 0 0 20px 0; margin-bottom: 40px;">
-		<h3 style="font-family: 'Bree Serif', arial; font-weight: bold; font-size: 30px;">Photo Collections</h3>
-	</div>
-	<div class="container">
-		<ul class="first">
-			<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xss-12" data-index="0"><img alt="Baby photography" src="photos/1.jpg" />
-				<p class="text">Description</p>
-			<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-xss-12" data-index="1"><img src="photos/2.jpg" />
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-		</ul>
+	<div class="header-site">
+		<div class="row" style="text-align: center; border-bottom: 1px dashed #ccc; padding: 0 0 20px 0; margin-bottom: 40px;">
+			<h3 style="font-family: 'Bree Serif', arial; font-weight: bold; font-size: 30px;">Photo Collections</h3>
+			<div class="fb-follow" data-href="https://www.facebook.com/manognareddyphotography/" data-layout="standard" data-size="small" data-show-faces="true"></div>
+		</div>
 	</div>
+	
+	<div class="container">
+	<div class="row body">
+	<div class="col-sm-2 left-side">
+			<h3 style="text-align: center;font-family: 'Bree Serif', arial; font-weight: bold; font-size: 30px;">Baby Photography</h3>
+		</div>
+		<div class="col-sm-10 right-side">
+		
+		<ul class="first">
+			<li  data-index="0"><img alt="Baby photography" src="photos/1.jpg" />
+				<p class="text">Description</p>
+			<li  data-index="1"><img src="photos/2.jpg" />
+			<li  data-index="2"><img src="photos/2.jpg" />
+			<li  data-index="3"><img src="photos/2.jpg" />
+			<li  data-index="4"><img src="photos/2.jpg" />
+			<li  data-index="5"><img src="photos/2.jpg" />
+			<li  data-index="6"><img src="photos/2.jpg" />
+			<li  data-index="7"><img src="photos/2.jpg" />
+			<li  data-index="8"><img src="photos/2.jpg" />
+			<li  data-index="9"><img src="photos/2.jpg" />
+			<li  data-index="10"><img src="photos/2.jpg" />
+			<li  data-index="11"><img src="photos/2.jpg" />
+			<li  data-index="12"><img src="photos/2.jpg" />
+			
+		</ul>
+		
+		</div>
+	</div>
+	</div>
+	
 
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
@@ -51,6 +84,7 @@
 		<!-- /.modal-dialog -->
 	</div>
 	<!-- /.modal -->
+
 
 </body>
 </html>
