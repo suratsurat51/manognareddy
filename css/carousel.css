@@ -130,10 +130,10 @@ body {
 
 @media ( max-width : 20rem) {
 	.carousel {
-		height: 22rem;
+		height: 30rem;
 	}
 	.carousel .item {
-		height: 22rem;
+		height: 30rem;
 		background-color: #777;
 	}
 	.carousel-inner>.item>img {
