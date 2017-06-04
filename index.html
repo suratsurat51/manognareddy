@@ -1,30 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="ISO-8859-1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Baby, Maternity photographer in Hyderabad.">
 <meta name="author" content="Manogna Reddy">
+<link rel="icon" href="resources/favicon.png">
 <title>Manogna Reddy Photography</title>
 
-<link href="js-resource/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<script src="js/jquery-3.2.1.js"></script>
-<script src="js-resource/bootstrap-3.3.7/js/bootstrap.min.js"></script>
-
-<script src="js/jquery.bsPhotoGallery.js"></script>
-<link href="css/jquery.bsPhotoGallery.css" rel="stylesheet">
-<link href="css/myApp.css" rel="stylesheet">
-
-
-<script>
-	$(document).ready(function() {
-		$('ul.first').bsPhotoGallery({
-			"classes" : "col-lg-5 col-md-8 col-sm-12 col-xs-12 col-xxs-12",
-			"hasModal" : true
-		});
-	});
-</script>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<link href="css/carousel.css" rel="stylesheet">
 
 </head>
 <body>
@@ -40,57 +27,210 @@
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
-
-	<div class="header-site">
-		<div class="row" style="text-align: center; border-bottom: 1px dashed #ccc; padding: 0 0 20px 0; margin-bottom: 40px;">
-			<h3 style="font-family: 'Bree Serif', arial; font-weight: bold; font-size: 30px;">Photo Collections</h3>
-			<div class="fb-follow" style="text-align: right;" data-href="https://www.facebook.com/manognareddyphotography/" data-layout="standard"
-				data-size="small" data-show-faces="true"></div>
+	<div class="navbar-wrapper">
+		<div class="container">
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Manogna Reddy Photography</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio
+									<span class="caret"></span>
+							</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">New Born</a></li>
+									<li><a href="#">Maternity</a></li>
+									<li><a href="#">Babies</a></li>
+								</ul></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		</div>
 	</div>
 
-	<div class="container">
+	<!-- Carousel
+    ================================================== -->
+	<div class="container marketing">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img class="first-slide" src="photos/cover/new-born.jpg" alt="First slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<!--               <h1>Example headline.</h1> -->
+							<!--               <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" security rules.</p> -->
+							<p>
+								<a class="btn btn-primary btn-responsive" href="#" role="button">New Born, more..</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img class="second-slide" src="photos/cover/maternity.jpg" alt="Second slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<p>
+								<a class="btn btn-primary btn-responsive" href="#" role="button">Maternity, more..</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img class="third-slide" src="photos/cover/babies.jpg" alt="Third slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<p>
+								<a class="btn btn-primary btn-responsive" href="#" role="button">Babies, more..</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"
+				aria-hidden="true"></span> <span class="sr-only">Previous</span>
+			</a> <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"
+				aria-hidden="true"></span> <span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!-- /.carousel -->
+
+		<!-- START THE FEATURETTES -->
+
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-7">
+				<h2 class="featurette-heading">
+					New Born photography, <span class="text-muted">It'll blow your mind.</span>
+				</h2>
+				<p class="lead">some description here....</p>
+			</div>
+			<div class="col-md-5">
+				<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="photos/cover/new-born-ft-500x500.jpg"
+					alt="Generic placeholder image">
+			</div>
+		</div>
+
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-7 col-md-push-5">
+				<h2 class="featurette-heading">
+					Maternity photography, <span class="text-muted">See for yourself.</span>
+				</h2>
+				<p class="lead">some description here....</p>
+			</div>
+			<div class="col-md-5 col-md-pull-7">
+				<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="photos/cover/maternity-ft-500x500.jpg"
+					alt="Generic placeholder image">
+			</div>
+		</div>
+
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-7">
+				<h2 class="featurette-heading">
+					Babies photography, <span class="text-muted">and lastly, this one checkmate.</span>
+				</h2>
+				<p class="lead">some description here....</p>
+			</div>
+			<div class="col-md-5">
+				<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="photos/cover/babies-ft-500x500.jpg"
+					alt="Generic placeholder image">
+			</div>
+		</div>
+
+		<hr class="featurette-divider">
+
+		<!-- /END THE FEATURETTES -->
 		<div class="row">
-			<div class="col-sm-3 baby-header-site" style="margin-bottom: -99999px; overflow: hidden; text-align: center; padding-bottom: 99999px;">
-				<h3 style="text-align: center; font-family: 'Bree Serif', arial; font-weight: Italic; font-size: 30px;">Baby Photography</h3>
+			<div class="col-lg-4">
+				<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image"
+					width="140" height="140">
+				<div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-small-header="false"
+					data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+					<blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore">
+						<a href="https://www.facebook.com/manognareddyphotography">manognareddyphotography</a>
+					</blockquote>
+				</div>
+				<!--           <h2>Heading</h2> -->
+				<!--           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p> -->
+				<p>
+					<a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+				</p>
 			</div>
-			<div class="col-sm-9">
-				<ul class="nav nav-pills">
-					<li class="active"><a href="#">New Born</a></li>
-					<li><a href="maternity.html">Maternity</a></li>
-					<li><a href="about.html">About</a></li>
-
-				</ul>
-				<ul class="first">
-					<li><img alt="Baby photography" src="photos/baby/1.jpg" />
-						<p class="text">Description</p>
-					<li><img src="photos/baby/2.jpg" />
-					<li><img src="photos/baby/3.jpg" />
-					<li><img src="photos/baby/4.jpg" />
-					<li><img src="photos/baby/5.jpg" />
-					<li><img src="photos/baby/6.jpg" />
-					<li><img src="photos/baby/7.jpg" />
-					<li><img src="photos/baby/8.jpg" />
-					<li><img src="photos/baby/9.jpg" />
-					<li><img src="photos/baby/10.jpg" />
-				</ul>
-
+			<!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+				<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image"
+					width="140" height="140">
+				<h2>Heading</h2>
+				<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet
+					fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+				<p>
+					<a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+				</p>
 			</div>
+			<!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+				<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image"
+					width="140" height="140">
+				<h2>Heading</h2>
+				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce
+					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+				<p>
+					<a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+				</p>
+			</div>
+			<!-- /.col-lg-4 -->
 		</div>
+		<!-- /.row -->
+
 	</div>
 
-
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-body"></div>
-			</div>
-			<!-- /.modal-content -->
-		</div>
-		<!-- /.modal-dialog -->
-	</div>
-	<!-- /.modal -->
+	<!-- FOOTER -->
+	<footer>
+		<p class="pull-right">
+			<a href="#">Back to top</a>
+		</p>
+		<!--         <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
+	</footer>
 
 
+	<!-- /END THE FEATURETTES -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		window.jQuery
+				|| document
+						.write('<script src="js-resource/jquery.min.js"><\/script>')
+	</script>
+	<script src="js-resource/bootstrap.min.js"></script>
+	<script src="js-resource/holder.min.js"></script>
+	<script src="js-resource/ie-emulation-modes-warning.js"></script>
+	<script src="js-resource/ie10-viewport-bug-workaround.js"></script>
+
+	<!-- 	<script src="js-resource/holder.min.js"></script> -->
+	<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none"
+		style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
+		<defs>
+		<style type="text/css"></style></defs>
+		<text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg>
+</body>
+</html>
 </body>
 </html>
