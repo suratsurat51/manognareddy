@@ -77,6 +77,23 @@ body {
 	}
 }
 
+@media ( max-width : 100rem) {
+	.carousel {
+		height: 65rem;
+	}
+	.carousel .item {
+		height: 65rem;
+		background-color: #777;
+	}
+	.carousel-inner>.item>img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		/*   min-width: 100%; */
+		height: 65rem;
+	}
+}
+
 @media ( max-width : 90rem) {
 	.carousel {
 		height: 60rem;
@@ -111,12 +128,12 @@ body {
 	}
 }
 
-@media ( max-width : 40rem) {
+@media ( max-width : 60rem) {
 	.carousel {
-		height: 35rem;
+		height: 50rem;
 	}
 	.carousel .item {
-		height: 35rem;
+		height: 50rem;
 		background-color: #777;
 	}
 	.carousel-inner>.item>img {
@@ -124,11 +141,45 @@ body {
 		top: 0;
 		left: 0;
 		/*   min-width: 100%; */
-		height: 35rem;
+		height: 50rem;
 	}
 }
 
-@media ( max-width : 20rem) {
+@media ( max-width : 40rem) {
+	.carousel {
+		height: 40rem;
+	}
+	.carousel .item {
+		height: 40rem;
+		background-color: #777;
+	}
+	.carousel-inner>.item>img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		/*   min-width: 100%; */
+		height: 40rem;
+	}
+}
+
+@media ( max-width : 30rem) {
+	.carousel {
+		height: 30rem;
+	}
+	.carousel .item {
+		height: 30rem;
+		background-color: #777;
+	}
+	.carousel-inner>.item>img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		/*   min-width: 100%; */
+		height: 30rem;
+	}
+}
+
+@media ( max-width : 15rem) {
 	.carousel {
 		height: 30rem;
 	}
