@@ -86,7 +86,7 @@
   opacity: 1; }
 
 .mbr-gallery .mbr-gallery-item > div:hover::before {
-  opacity: .9; }
+  opacity: .2; }
 
 .mbr-gallery .mbr-gallery-item > div:hover .mbr-gallery-title {
   background: transparent !important; }
