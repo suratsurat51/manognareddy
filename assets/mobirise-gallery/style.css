@@ -35,7 +35,8 @@
 
 .mbr-gallery .mbr-gallery-item > div:hover .icon-focus,
 .mbr-gallery .mbr-gallery-item > div:hover .icon-video {
-  opacity: 1; }
+  opacity: 1; 
+  }
 
 .mbr-gallery .mbr-gallery-item img {
   width: 100%;
@@ -44,7 +45,8 @@
   transition: .2s opacity ease-in-out; }
 
 .mbr-gallery .mbr-gallery-item > div:hover img {
-  opacity: 1; }
+/*   opacity: 1;  */
+  }
 
 .mbr-gallery .mbr-gallery-item > div {
   background: #fff;
@@ -86,7 +88,8 @@
   opacity: 1; }
 
 .mbr-gallery .mbr-gallery-item > div:hover::before {
-  opacity: .9; }
+/*   opacity: .9;  */
+  }
 
 .mbr-gallery .mbr-gallery-item > div:hover .mbr-gallery-title {
   background: transparent !important; }
