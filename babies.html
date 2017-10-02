@@ -32,7 +32,7 @@
 -->
 <script type="text/javascript">
 	if (screen.width <= 700) {
-// 		window.location = "http://www.manognareddy.com/mob_babies.html";
+		// 		window.location = "http://www.manognareddy.com/mob_babies.html";
 	}
 </script>
 <script src="js/w3.js"></script>
@@ -126,7 +126,9 @@
 <script src="assets/mobirise-slider-video/script.js"></script>
 
 <script type="text/javascript">
-	$("#babiesMenu").removeClass("text-white").addClass("text-blue");
+	$.onLoad(function() {
+		("#babiesMenu").removeClass("text-white").addClass("text-blue")
+	});
 </script>
 
 <div id="scrollToTop" class="scrollToTop mbr-arrow-up">
