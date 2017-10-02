@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="">
-		<attributes>
-			<attribute name="provider" value="org.eclipse.wst.jsdt.web.core.internal.project.ModuleSourcePathProvider"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry excluding="bower_components/*|node_modules/*|*.min.js" kind="src" path="WebContent"/>
 	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.WebProject">
 		<attributes>
@@ -12,5 +8,60 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/git/suratsurat51.github.io/assets/web/assets/jquery/jquery.min.js">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/git/suratsurat51.github.io/assets/tether/tether.min.js">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/git/suratsurat51.github.io/assets/bootstrap/js/bootstrap.min.js">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/git/suratsurat51.github.io/assets/dropdown/js/script.min.js">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/git/suratsurat51.github.io/assets/touch-swipe/jquery.touch-swipe.min.js">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/git/suratsurat51.github.io/assets/jquery-mb-ytplayer/jquery.mb.ytplayer.min.js">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/git/suratsurat51.github.io/assets/masonry/masonry.pkgd.min.js">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/git/suratsurat51.github.io/assets/imagesloaded/imagesloaded.pkgd.min.js">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/git/suratsurat51.github.io/assets/mobirise-gallery/player.min.js">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/git/suratsurat51.github.io/js-resource/bootstrap-4.0.0/js/bootstrap.min.js">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/User/git/suratsurat51.github.io/assets/jarallax/jarallax.min.js">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path=""/>
 </classpath>
