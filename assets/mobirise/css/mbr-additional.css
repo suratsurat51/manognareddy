@@ -3232,18 +3232,11 @@ body {
   height: 100%;
   background: transparent !important;
 }
-.cid-qtvcqPaJB9 .image_wrapper {
-  height: 300px;
-/*   height: auto; */
-  width: 300px;
-  position: relative;
-  display: inline-block;
-}
 
-.cid-qtvcqPaJB9 .image_wrapper and (min-device-width: 400px) {
-  height: 650px;
+.cid-qtvcqPaJB9 .image_wrapper{
+  height: 500px;
 /*   height: auto; */
-  width: 650px;
+  width: 500px;
   position: relative;
   display: inline-block;
 }
