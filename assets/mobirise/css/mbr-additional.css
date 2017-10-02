@@ -3233,9 +3233,17 @@ body {
   background: transparent !important;
 }
 .cid-qtvcqPaJB9 .image_wrapper {
-  height: 570px;
+  height: 300px;
 /*   height: auto; */
-  width: 570px;
+  width: 300px;
+  position: relative;
+  display: inline-block;
+}
+
+.cid-qtvcqPaJB9 .image_wrapper and (min-device-width: 400px) {
+  height: 650px;
+/*   height: auto; */
+  width: 650px;
   position: relative;
   display: inline-block;
 }
@@ -3245,6 +3253,7 @@ body {
   height: auto;
   max-width: 100%;
 }
+
 .cid-qtvcqPaJB9 .carousel-item .container-slide {
   text-align: center;
 }
