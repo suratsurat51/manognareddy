@@ -1,0 +1,2 @@
+file : assets/mobirise-gallery/style.css
+.mbr-gallery .mbr-gallery-item > div:hover img - reduce/comment the opacity. 
