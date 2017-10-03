@@ -29,7 +29,7 @@
 
 <script type="text/javascript">
 	if (screen.width <= 700) {
-// 		window.location = "http://www.manognareddy.com/mob_newBorn.html";
+		// 		window.location = "http://www.manognareddy.com/mob_newBorn.html";
 	}
 </script>
 <script src="js/w3.js"></script>
@@ -51,7 +51,7 @@
 							<div class="carousel-item  slider-fullscreen-image active " data-bg-video-slide="false"
 								style="background-image: url(assets/images/8-2000x1213.jpg);">
 								<div class="container container-slide">
-								<!-- mbr-figure -->
+									<!-- mbr-figure -->
 									<div class="image_wrapper">
 										<img src="assets/images/8-2000x1213.jpg">
 										<div class="carousel-caption">
@@ -124,8 +124,11 @@
 <script src="assets/mobirise-slider-video/script.js"></script>
 
 <script type="text/javascript">
-	$("#newBornMenu").removeClass("text-white").addClass("text-blue");
+	$(document).ready(function() {
+		$("#newBornMenu").removeClass("text-white").addClass("text-blue")
+	});
 </script>
+
 
 <div id="scrollToTop" class="scrollToTop mbr-arrow-up">
 	<a style="text-align: center;"><i class="mbri-down mbr-iconfont"></i></a>

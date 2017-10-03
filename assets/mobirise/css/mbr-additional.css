@@ -3235,7 +3235,7 @@ body {
 
 @media ( max-width : 50rem) {
 	.cid-qtvcqPaJB9 .image_wrapper {
-		height: 70rem;
+		height: 40rem;
 		/*   height: auto; */
 		max-width: 100%;
 		position: relative;
@@ -3245,7 +3245,7 @@ body {
 
 @media ( max-width : 25rem) {
 	.cid-qtvcqPaJB9 .image_wrapper {
-		height: 25rem;
+		height: 20rem;
 		/*   height: auto; */
 		max-width: 100%;
 		position: relative;
@@ -3255,7 +3255,7 @@ body {
 
 @media ( max-width : 10rem) {
 	.cid-qtvcqPaJB9 .image_wrapper {
-		height: 15rem;
+		height: 10rem;
 		/*   height: auto; */
 		max-width: 100%;
 		position: relative;
