@@ -3233,13 +3233,27 @@ body {
   background: transparent !important;
 }
 
-.cid-qtvcqPaJB9 .image_wrapper{
-  height: 500px;
-/*   height: auto; */
-  width: 500px;
-  position: relative;
-  display: inline-block;
+@media ( min-width : 50rem) {
+	.cid-qtvcqPaJB9 .image_wrapper {
+		height: 50rem;
+		/*   height: auto; */
+		width: 50rem;
+		position: relative;
+		display: inline-block;
+	}
 }
+
+@media ( min-width : 10rem) {
+	.cid-qtvcqPaJB9 .image_wrapper {
+		height: 30rem;
+		/*   height: auto; */
+		width: 30rem;
+		position: relative;
+		display: inline-block;
+	}
+}
+
+
 .cid-qtvcqPaJB9 .image_wrapper img {
 /*   width: auto !important; */
 /*   height: 100%; */
