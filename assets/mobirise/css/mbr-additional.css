@@ -3237,7 +3237,7 @@ body {
 	.cid-qtvcqPaJB9 .image_wrapper {
 		height: 70rem;
 		/*   height: auto; */
-		width: 70rem;
+		max-width: 100%;
 		position: relative;
 		display: inline-block;
 	}
@@ -3247,7 +3247,7 @@ body {
 	.cid-qtvcqPaJB9 .image_wrapper {
 		height: 25rem;
 		/*   height: auto; */
-		width: 25rem;
+		max-width: 100%;
 		position: relative;
 		display: inline-block;
 	}
@@ -3257,7 +3257,7 @@ body {
 	.cid-qtvcqPaJB9 .image_wrapper {
 		height: 15rem;
 		/*   height: auto; */
-		width: 15rem;
+		max-width: 100%;
 		position: relative;
 		display: inline-block;
 	}
