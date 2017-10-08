@@ -3233,6 +3233,16 @@ body {
   background: transparent !important;
 }
 
+@media ( min-width : 51rem) {
+	.cid-qtvcqPaJB9 .image_wrapper {
+		height: 40rem;
+		/*   height: auto; */
+		max-width: 100%;
+		position: relative;
+		display: inline-block;
+	}
+}
+
 @media ( max-width : 50rem) {
 	.cid-qtvcqPaJB9 .image_wrapper {
 		height: 30rem;
