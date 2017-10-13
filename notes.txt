@@ -5,3 +5,8 @@ file : assets/mobirise-gallery/style.css
 mbr-additional.css
 image_wrapper 
 height:auto
+
+image:
+min - 350 px
+med - 600 px
+max - 1000 px 
