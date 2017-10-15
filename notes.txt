@@ -77,14 +77,15 @@ maternity.html
 <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
 
-<link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/css/tether.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
 <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/css/tether.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 <link rel="stylesheet" href="assets/dropdown/css/style.css">
 <link rel="stylesheet" href="assets/socicon/css/styles.css">
+<!-- <link rel="stylesheet" href="assets/animate.css/animate.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
 <link rel="stylesheet" href="assets/theme/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" />
 <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
-curl "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" -H "Referer: https://themes.getbootstrap.com/products/dashboard" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36" --compressed
+
