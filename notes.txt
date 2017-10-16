@@ -89,3 +89,7 @@ maternity.html
 <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
 
+ "sameAs" : [ "http://www.facebook.com/prekshaclicks",
+    "http://www.pinterest.com/prekshaclicks/",
+	"https://www.youtube.com/channel/UCfvqQGE-6AU6iCiJjnTMYqQ",
+    "https://plus.google.com/+Prekshaclicks"] 
