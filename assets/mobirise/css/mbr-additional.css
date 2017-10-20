@@ -2869,7 +2869,8 @@ body {
   min-height: 100vh;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: cover;
+  /* surat */
+  background-size: contain;
 }
 .cid-qsROst7Gnd .full-screen .slider-fullscreen-image.active {
   display: -o-flex;
