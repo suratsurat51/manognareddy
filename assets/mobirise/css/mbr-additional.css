@@ -3294,7 +3294,8 @@ body {
 
 .cid-qtvcqPaJB9 .image_wrapper img {
   width: auto !important;
-  height: 100%;
+  height: auto;
+/*   align : center; */
 /*   height: auto; */
   max-width: 100%;
 }
