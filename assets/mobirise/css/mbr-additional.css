@@ -3292,6 +3292,18 @@ body {
 		display: inline-block;
 }
 
+@media ( min-width : 61rem) {
+.cid-qtvcqPaJB9 .image_wrapper img {
+  width: auto !important;
+  height: 75vh;
+   margin: 0 auto;
+/*   align : center; */
+/*   height: auto; */
+  max-width: 100%;
+}
+}
+
+@media ( max-width : 61rem) {
 .cid-qtvcqPaJB9 .image_wrapper img {
   width: auto !important;
   height: 50vh;
@@ -3300,6 +3312,9 @@ body {
 /*   height: auto; */
   max-width: 100%;
 }
+}
+
+
 
 .cid-qtvcqPaJB9 .carousel-item .container-slide {
   text-align: center;
