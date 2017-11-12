@@ -2866,7 +2866,7 @@ body {
   min-height: 0;
 }
 .cid-qsROst7Gnd .full-screen .slider-fullscreen-image {
-  min-height: 100vh;
+  min-height: 90vh;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   /* surat */
@@ -2882,7 +2882,7 @@ body {
 }
 .cid-qsROst7Gnd .full-screen .carousel-item .container.container-slide {
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 0;
 }
 .cid-qsROst7Gnd .full-screen .carousel-item .container.container-slide img {
