@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="assets/theme/css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" />
 <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-
+<link rel="stylesheet" href="css/myApp.css">
 <script type="application/ld+json">
 {
   "@context":"http://schema.org",
@@ -98,7 +98,7 @@
 		</section>
 	</header>
 	<section class="carousel slide cid-qtvcqPaJB9" data-interval="false" id="slider2-14" data-rv-view="2268">
-		<div class="container content-slider">
+		<div class="container content-slider" id="desktopView">
 			<div class="content-slider-wrap">
 				<div>
 					<div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="false" data-interval="false">
@@ -162,6 +162,14 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="mobile" id="mobileView">
+			<ul>
+				<li><img data-src="photos/baby/baby-1_med.jpg" /></li>
+				<li><img data-src="photos/baby/baby-2_med.jpg" /></li>
+				<li><img data-src="photos/baby/baby-3_med.jpg" /></li>
+				<li><img data-src="photos/baby/baby-4_med.jpg" /></li>
+			</ul>
 		</div>
 	</section>
 
@@ -247,6 +255,18 @@
 	<script src="assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/1.9.0/jarallax.min.js"></script>
+	<script>
+		if (window.screen.width < 300) {
+			$("#mobileView").show();
+			$(document).ready(function() {
+				$("img").unveil();
+			});
+			$('#desktopView').hide();
+		}else{
+			$("#mobileView").hide();
+			$('#desktopView').show();
+		}
+	</script>
 
 	<div id="scrollToTop" class="scrollToTop mbr-arrow-up">
 		<a style="text-align: center;"><i class="mbri-down mbr-iconfont"></i></a>
